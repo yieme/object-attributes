@@ -1,6 +1,6 @@
 {
   "name": "object-attributes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Returns an array of object keys",
   "main": "index.js",
   "scripts": {
