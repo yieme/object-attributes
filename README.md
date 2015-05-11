@@ -15,8 +15,8 @@ npm i object-attributes --save
 ## Example Usage
 
 ```js
-var objectAttributes = require('object-attributes')
-console.log(objectAttributes)())
+var attributes = require('object-attributes')
+attributes({ foo:1, bar: 2 }) // [ "foo", "bar" ]
 ```
 
 ## Rights
