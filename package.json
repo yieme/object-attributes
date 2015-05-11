@@ -15,13 +15,20 @@
     "type": "git",
     "url": "https://github.com/yieme/object-attributes"
   },
-  "keywords": ["object","attributes","keys","array"],
+  "keywords": [
+    "object",
+    "attributes",
+    "keys",
+    "array"
+  ],
   "author": "yieme",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yieme/object-attributes/issues"
   },
-  "dependencies": {   },
+  "dependencies": {
+    "lodash": "^3.8.0"
+  },
   "devDependencies": {
     "chai": "~1.10.0"
   },

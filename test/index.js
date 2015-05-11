@@ -3,9 +3,12 @@ var should = require('chai').should(),
 ;
 
 describe('object-attributes', function() {
-  it('should say hello', function(done) {
-    var test = objectAttributes()
-    test.value.should.equal('Hello, world');
+  var expected = ["foo", "bar"]
+  var expectedString = JSON.stringify(expected)
+  it('should eaual ' + expectedString, function(done) {
+    var test = objectAttributes({ foo:1, bar: 2 })
+    var json = JSON.stringify(test)
+    json.should.equal(expectedString);
     done();
   });
 });
